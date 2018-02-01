@@ -23,21 +23,21 @@ Above is an example of negative risk. The maximum possible loss is negative $6.8
 
 ![Trades](trades.png)
 
-Above you can see the trades done to get to negative risk.
+Above you can see the trades done to get to negative risk in that market.
 
-The first trade cost $14.35 in shares, and because those were the only shares owned your risk was $14.35, so PredictIt subtracted $14.35 from available balance.
+The first trade cost $14.35 in shares, and because those were the only shares owned the risk was $14.35, so PredictIt subtracted $14.35 from available balance.
 
-The second trade, however, reduced the overall risk. The cost of the shares would have been $49, but instead the maximum possible loss following the purchase was $13.45. The risk had decreased by $0.9, so PredictIt, instead of charging $49, credits you $0.9.
+The second trade, however, reduced the overall risk. The cost of the shares would have been $49, but instead the maximum possible loss following the purchase was $13.45. The risk decreased by $0.9, so PredictIt, instead of charging $49, credits you back $0.9.
 
-The third trade decreased the risk further from $13.45 to ($6.854), a net decrease of $20.304, so instead of charging $165.44, the cost of the shares, PredictIt credits you back $20.304.
+The third trade puts it at negative risk. From $13.45 to ($6.854), a net decrease of $20.304. So instead of charging $165.44, the cost of the shares, PredictIt credits you back $20.304.
 
 The total amount paid for those 3 trades was negative $6.854, leaving you with more than you started with.
 
-But we can do slightly better:
+But we can do even better:
 
 ![Preview Menu](preview.png)
 
-Above is the Preview menu before you submit an offer (mentioned in point 2 for "Basic Tips To Minimize Your Risk" above) for a trade order done to decrease the risk even further. By buying those 136 'No' shares you would be credited an additional $1.224. If it had been 137 shares the amount would be $0.405, and if it had been 135 shares the amount would have been $1.215 so 136 is the optimal number to buy there. This puts the negative risk up to a total of $8.078.
+Above is the Preview menu before you submit an offer (mentioned in point 2 for "Basic Tips To Minimize Your Risk" above) for a trade order done to decrease the risk even further. By buying those 136 'No' shares you would be credited an additional $1.224. If it was been 137 shares the amount would be $0.405, and if it was been 135 shares the amount would have been $1.215 so 136 is the optimal number to buy there. This puts the negative risk up to a total of $8.078.
 
 ## Math Time
 
