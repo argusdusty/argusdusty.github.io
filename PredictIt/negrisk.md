@@ -71,7 +71,7 @@ So how do you compute risk? It's an important question if you want to properly m
 	* And you gain the value from your **No** shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
 	* Your net loss is the sum of them: -$171.585-$20.304-$0.9 = -$192.789
 
-A negative loss here indicates a positive gain. You can see the maximum possible loss is -$6.854, and that becomes your risk. Because that risk is negative you're guaranteed to make money. PredictIt does this calculation for you and credits you back that money. Later when the market resolves, it credits you any additional money you won.
+A negative loss here indicates a positive gain. You can see the maximum possible loss is -$6.854, and that becomes your risk. Because that risk is negative you're guaranteed to make money. PredictIt does this calculation for you and credits you back that money as you purchase the shares. Later when the market resolves, it credits you any additional money you won.
 
 If Newsom wins you get no additional value (because that was the same as the negative risk that you were already credited), but if Chiang wins you are credited an additional $136.035, the difference between your loss if Chiang wins and your risk.
 
