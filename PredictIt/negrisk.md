@@ -40,35 +40,35 @@ Above you can see the Preview menu (mentioned in point 2 for "Tips To Minimize Y
 
 So how do you compute risk? It's an important question if you want to properly minimize your risk, or get to negative risk. Well, as stated above, the risk is the maximum possible loss you can incur. That is, it's the maximum of your loss from each contract resolving 'yes', or from all of them resolving 'no'. Let's take a look at that 3-contract market I posted above. There are 4 possibilities, which the images above show:
 
-The case if Newsom wins:
-	You lose the value of the 'no' shares on Newsom: 205\*$0.07 = $14.35
-	But you gain the value of your 'no' shares in Villaraigosa (minus the 10% fee): 188\*($1-$0.88)\*0.9 = $20.304
-	And you gain the value of your 'no' shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
-	Your net loss is the difference between them: $14.35-$20.304-$0.9 = -$6.854
+* The case if Newsom wins:
+	* You lose the value of the 'no' shares on Newsom: 205\*$0.07 = $14.35
+	* But you gain the value of your 'no' shares in Villaraigosa (minus the 10% fee): 188\*($1-$0.88)\*0.9 = $20.304
+	* And you gain the value of your 'no' shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
+	* Your net loss is the difference between them: $14.35-$20.304-$0.9 = -$6.854
 
-The case if Villaraigosa wins:
-	You lose the value of the 'no' shares on Villaraigosa: 188\*$0.88 = $165.44
-	But you gain the value of your 'no' shares in Newsom (minus the 10% fee): (205\*($1-$0.07)\*0.9 = $171.585
-	And you gain the value of your 'no' shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
-	Your net loss is the difference between them: $165.44-$171.585-$0.9 = -$7.045
+* The case if Villaraigosa wins:
+	* You lose the value of the 'no' shares on Villaraigosa: 188\*$0.88 = $165.44
+	* But you gain the value of your 'no' shares in Newsom (minus the 10% fee): (205\*($1-$0.07)\*0.9 = $171.585
+	* And you gain the value of your 'no' shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
+	* Your net loss is the difference between them: $165.44-$171.585-$0.9 = -$7.045
 
-The case if Chiang wins:
-	You lose the value of the 'no' shares on Chiang: 50\*$0.98 = $49
-	But you gain the value of your 'no' shares in Newsom (minus the 10% fee): (205\*($1-$0.07)\*0.9 = $171.585
-	And you gain the value of your 'no' shares in Villaraigosa (minus the 10% fee): 188\*($1-$0.88)\*0.9 = $20.304
-	Your net loss is the difference between them: $49-$171.585-$20.304 = -$142.889
+* The case if Chiang wins:
+	* You lose the value of the 'no' shares on Chiang: 50\*$0.98 = $49
+	* But you gain the value of your 'no' shares in Newsom (minus the 10% fee): (205\*($1-$0.07)\*0.9 = $171.585
+	* And you gain the value of your 'no' shares in Villaraigosa (minus the 10% fee): 188\*($1-$0.88)\*0.9 = $20.304
+	* Your net loss is the difference between them: $49-$171.585-$20.304 = -$142.889
 
-The case if none of those wins:
-	You gain the value of your 'no' shares in Newsom (minus the 10% fee): (205\*($1-$0.07)\*0.9 = $171.585
-	And you gain the value of your 'no' shares in Villaraigosa (minus the 10% fee): 188\*($1-$0.88)\*0.9 = $20.304
-	And you gain the value of your 'no' shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
-	Your net loss is the sum of them: -$171.585-$20.304-$0.9 = -$192.789
+* The case if none of those wins:
+	* You gain the value of your 'no' shares in Newsom (minus the 10% fee): (205\*($1-$0.07)\*0.9 = $171.585
+	* And you gain the value of your 'no' shares in Villaraigosa (minus the 10% fee): 188\*($1-$0.88)\*0.9 = $20.304
+	* And you gain the value of your 'no' shares in Chiang (minus the 10% fee): 50\*($1-$0.98)\*0.9 = $0.9
+	* Your net loss is the sum of them: -$171.585-$20.304-$0.9 = -$192.789
 
 A negative loss here indicates a positive gain. You can see the maximum possible loss is -$6.854, and that becomes your risk. Because that risk is negative you're guaranteed to make money. PredictIt does this calculation for you and credits you back that money. Later when the market resolves, it credits you any additional money you won.
 
 If Newsom wins you get no additional value (because that was the same as the negative risk that you were already credited), but if Chiang wins you are credited an additional $136.035, the difference between your loss if Chiang wins and your risk.
 
-I'll leave it as an exercise to the reader to take this math a bit further and make the calculation easier to do (hint: PredictIt shows you how in the images I posted above), and also how to determine when a market could potentially give out negative risk.
+I'll leave it as an exercise to the reader to take this math a bit further and make the calculation easier to do (hint: PredictIt shows you how in the images I posted above), and also how to determine when a market could theoretically give out negative risk.
 
 ## Further Reading
 
