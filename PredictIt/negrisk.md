@@ -15,7 +15,7 @@ The advantage of this system is that if your risk is lower than the cost of the 
 5. Keep in mind the limits of shares you can buy. There are only a finite amount of shares available, and you are limited to owning a maximum of $850 of shares in each contract (regardless of risk)
 6. Keep in mind the 10% fee on profit (but not loss) that PredictIt takes. This is included in risk calculations by PredictIt (it's why risk, and profit, is shown in tenths of a cent)
 
-### An Example
+## An Example
 
 ![Example of Negative Risk](negrisk.png)
 
