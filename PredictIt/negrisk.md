@@ -8,7 +8,7 @@ The advantage of this system is that if your risk is lower than the cost of the 
 
 ## Basic Tips To Minimize Your Risk
 
-1. Buy 'no' shares instead of 'yes' shares. Owning 'no' shares in multiple contracts will always give you a lower risk than the total purchase value of those shares. PredictIt includes a potential 'all of these contracts resolve no' option in risk calculations so you can never have negative risk with 'yes' shares. Additionally 'yes' share prices in PredictIt markets.
+1. Buy 'no' shares instead of 'yes' shares. Owning 'no' shares in multiple contracts will always give you a lower risk than the total purchase value of those shares. PredictIt includes a potential 'all of these contracts resolve no' option in risk calculations so you can never have negative risk with 'yes' shares. Additionally 'yes' share prices in PredictIt markets are overpriced due to user biases.
 2. PredictIt will display how much your risk changes in the "Preview" menu before you submit a trade order under "Minimum Credit"/"Maximum Debit". You can play around with the number of shares to try to optimize how much credit you get.
 3. Markets with a larger number of contracts are easier to minimize risk in. Big elections or bracketed markets (like poll markets or tweet markets) are great for this.
 4. In higher-volume markets, place orders below the current 'buy no' prices (but above 'sell no'). People buying up 'yes' shares will be happy to get a lower price, and you get a lower risk.
@@ -19,25 +19,25 @@ The advantage of this system is that if your risk is lower than the cost of the 
 
 ![Example of Negative Risk](negrisk.png)
 
-Above is an example of negative risk. The maximum possible loss is negative $6.854. Buy purchasing those shares I was guaranteed to win at least $6.854, so after all the trades were completed PredictIt had credited my available balance a net $6.854, and even the potential for additional profit if someone other than Newsom wins the election.
+Above is an example of negative risk. The maximum possible loss is negative $6.854, meaning a minimum possible gain of $6.854. Buy purchasing those shares you are guaranteed to win at least $6.854, so after all the trades were completed PredictIt will have credited available balance a net $6.854, and even the potential for additional profit if someone other than Newsom wins the election.
 
 ![Trades](trades.png)
 
-Above you can see the trades I did to get to negative risk.
+Above you can see the trades done to get to negative risk.
 
-The first trade cost $14.35 in shares, and because those were the only shares I owned PredictIt subtracted $14.35 from my available balance.
+The first trade cost $14.35 in shares, and because those were the only shares owned PredictIt subtracted $14.35 from available balance.
 
-The second trade, however, reduced my overall risk. The cost of the shares would have been $49, but instead my maximum possible loss following the purchase was $13.45. My risk had decreased by $0.9, so PredictIt, instead of charging me $49, credited me $0.9.
+The second trade, however, reduced the overall risk. The cost of the shares would have been $49, but instead the maximum possible loss following the purchase was $13.45. The risk had decreased by $0.9, so PredictIt, instead of charging $49, credits you $0.9.
 
-The third trade decreased my risk further from $13.45 to ($6.854), a net decrease of $20.304, so instead of charging me $165.44, the cost of the shares, PredictIt instead credited me back $20.304.
+The third trade decreased the risk further from $13.45 to ($6.854), a net decrease of $20.304, so instead of charging $165.44, the cost of the shares, PredictIt credits you back $20.304.
 
-The total amount I paid for those 3 trades was negative $6.854, leaving me with more than I started with.
+The total amount paid for those 3 trades was negative $6.854, leaving you with more than you started with.
 
 But we can do slightly better:
 
 ![Preview Menu](preview.png)
 
-Above is the Preview menu before you submit an offer (mentioned in point 2 for "Basic Tips To Minimize Your Risk" above) for a trade order I did to decrease my risk even further. By buying those 136 'No' shares I would be credited an additional $1.224. If it had been 137 shares the amount would be $0.405, and if it had been 135 shares the amount would have been $1.215 so 136 is the optimal number to buy there. Making this trade put me up to a negative risk of $8.078.
+Above is the Preview menu before you submit an offer (mentioned in point 2 for "Basic Tips To Minimize Your Risk" above) for a trade order done to decrease the risk even further. By buying those 136 'No' shares you would be credited an additional $1.224. If it had been 137 shares the amount would be $0.405, and if it had been 135 shares the amount would have been $1.215 so 136 is the optimal number to buy there. This puts the negative risk up to a total of $8.078.
 
 ## Math Time
 
