@@ -25,7 +25,7 @@ Above is an example of negative risk. The maximum possible loss is negative $6.8
 
 Above you can see the trades done to get to negative risk.
 
-The first trade cost $14.35 in shares, and because those were the only shares owned PredictIt subtracted $14.35 from available balance.
+The first trade cost $14.35 in shares, and because those were the only shares owned your risk was $14.35, so PredictIt subtracted $14.35 from available balance.
 
 The second trade, however, reduced the overall risk. The cost of the shares would have been $49, but instead the maximum possible loss following the purchase was $13.45. The risk had decreased by $0.9, so PredictIt, instead of charging $49, credits you $0.9.
 
