@@ -1,6 +1,6 @@
 # Negative Risk on PredictIt
 
-## PredictIt **Risk**
+## PredictIt 'Risk'
 
 When you buy and sell shares in a multiple-contract market on PredictIt, PredictIt computes the maximum possible amount of money you can lose in any outcome, and *only* charges you that amount from your available balance, rather than the actual cost of the shares. This 'maximum possible loss' is known as your **risk** for the market.
 
