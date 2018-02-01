@@ -75,7 +75,7 @@ A negative loss here indicates a positive gain. You can see the maximum possible
 
 If Newsom wins you get no additional value (because that was the same as the negative risk that you were already credited), but if Chiang wins you are credited an additional $136.035, the difference between your loss if Chiang wins and your risk.
 
-I'll leave it as an exercise to the reader to take this math a bit further and make the calculation easier to do (hint: PredictIt shows you how in the images I posted above), and also how to determine when a market could theoretically give out negative risk.
+I'll leave it as an exercise to the reader to take this math a bit further and determine when a market could theoretically give out negative risk, and the optimal number of shares to purchase.
 
 ## Further Reading
 
